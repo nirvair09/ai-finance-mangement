@@ -124,3 +124,160 @@ Security & Performance: Bot protection, rate limiting, and API throttling ensure
 Budget Alerts: Sent when spending reaches 80% or more of the monthly budget.
 
 Monthly Financial Reports: Detailed income, expenses, category breakdowns, and AI-generated personalized tips.
+
+
+
+.eslintrc.json
+│   .gitignore
+│   components.json
+│   jsconfig.json
+│   middleware.js
+│   next.config.mjs
+│   package-lock.json
+│   package.json
+│   postcss.config.mjs
+│   README.md
+│   tailwind.config.js
+│
+├───actions
+│       account.js
+│       budget.js
+│       dashboard.js
+│       seed.js
+│       send-email.js
+│       transaction.js
+│
+├───app
+│   │   globals.css
+│   │   layout.js
+│   │   not-found.jsx
+│   │   page.js
+│   │
+│   ├───(auth)
+│   │   │   layout.js
+│   │   │
+│   │   ├───sign-in
+│   │   │   └───[[...sign-in]]
+│   │   │           page.jsx
+│   │   │
+│   │   └───sign-up
+│   │       └───[[...sign-up]]
+│   │               page.jsx
+│   │
+│   ├───(main)
+│   │   │   layout.js
+│   │   │
+│   │   ├───account
+│   │   │   ├───[id]
+│   │   │   │       page.jsx
+│   │   │   │
+│   │   │   └───_components
+│   │   │           account-chart.jsx
+│   │   │           no-pagination-transaction-table.jsx        
+│   │   │           transaction-table.jsx
+│   │   │
+│   │   ├───dashboard
+│   │   │   │   layout.js
+│   │   │   │   page.jsx
+│   │   │   │
+│   │   │   └───_components
+│   │   │           account-card.jsx
+│   │   │           budget-progress.jsx
+│   │   │           transaction-overview.jsx
+│   │   │
+│   │   └───transaction
+│   │       ├───create
+│   │       │       page.jsx
+│   │       │
+│   │       └───_components
+│   │               recipt-scanner.jsx
+│   │               transaction-form.jsx
+│   │
+│   ├───api
+│   │   ├───inngest
+│   │   │       route.js
+│   │   │
+│   │   └───seed
+│   │           route.js
+│   │
+│   └───lib
+│           schema.js
+│
+├───components
+│   │   create-account-drawer.jsx
+│   │   header.jsx
+│   │   hero.jsx
+│   │
+│   └───ui
+│           badge.jsx
+│           button.jsx
+│           calendar.jsx
+│           card.jsx
+│           checkbox.jsx
+│           drawer.jsx
+│           dropdown-menu.jsx
+│           input.jsx
+│           popover.jsx
+│           progress.jsx
+│           select.jsx
+│           sonner.jsx
+│           switch.jsx
+│           table.jsx
+│           tooltip.jsx
+│
+├───data
+│       categories.js
+│       landing.js
+│
+├───emails
+│       template.jsx
+│
+├───hooks
+│       use-fetch.js
+│
+├───lib
+│   │   arcjet.js
+│   │   checkUser.js
+│   │   prisma.js
+│   │   utils.js
+│   │
+│   └───inngest
+│           client.js
+│           function.js
+│
+├───prisma
+│   │   schema.prisma
+│   │
+│   └───migrations
+│       │   migration_lock.toml
+│       │
+│       ├───20241204141034_init
+│       │       migration.sql
+│       │
+│       ├───20241205074927_remove_currency
+│       │       migration.sql
+│       │
+│       ├───20241205094020_remove_categories
+│       │       migration.sql
+│       │
+│       ├───20241205094352_remove_categories
+│       │       migration.sql
+│       │
+│       ├───20241206121749_budget
+│       │       migration.sql
+│       │
+│       ├───20241208092553_budget
+│       │       migration.sql
+│       │
+│       ├───20241208122341_budget
+│       │       migration.sql
+│       │
+│       └───20241209133842_remove
+│               migration.sql
+│
+└───public
+        banner.jpeg
+        logo-sm.png
+        logo.png
+
+

@@ -7,105 +7,108 @@ import {
   Zap,
 } from "lucide-react";
 
-// Stats Data
+// 📊 Stats Data (new)
 export const statsData = [
   {
-    value: "50K+",
-    label: "Active Users",
+    value: "75K+",
+    label: "Finance Goals Achieved",
   },
   {
-    value: "$2B+",
-    label: "Transactions Tracked",
+    value: "$3.5B+",
+    label: "Expenses Analyzed",
   },
   {
-    value: "99.9%",
-    label: "Uptime",
+    value: "100%",
+    label: "Data Privacy Commitment",
   },
   {
-    value: "4.9/5",
-    label: "User Rating",
+    value: "4.95/5",
+    label: "Customer Satisfaction",
   },
 ];
 
-// Features Data
+// 🚀 Features Data (new)
 export const featuresData = [
   {
-    icon: <BarChart3 className="h-8 w-8 text-blue-600" />,
-    title: "Advanced Analytics",
+    icon: <BarChart3 className="h-8 w-8 text-green-600" />,
+    title: "Personalized Dashboards",
     description:
-      "Get detailed insights into your spending patterns with AI-powered analytics",
+      "Customize your dashboard with widgets that highlight what matters most to you.",
   },
   {
-    icon: <Receipt className="h-8 w-8 text-blue-600" />,
-    title: "Smart Receipt Scanner",
+    icon: <Receipt className="h-8 w-8 text-green-600" />,
+    title: "AI-Powered Expense Tracking",
     description:
-      "Extract data automatically from receipts using advanced AI technology",
+      "Upload any receipt or bill and let AI categorize and record it automatically.",
   },
   {
-    icon: <PieChart className="h-8 w-8 text-blue-600" />,
-    title: "Budget Planning",
-    description: "Create and manage budgets with intelligent recommendations",
+    icon: <PieChart className="h-8 w-8 text-green-600" />,
+    title: "Smart Budgeting",
+    description:
+      "Set financial goals and let our system guide you with adaptive budget suggestions.",
   },
   {
-    icon: <CreditCard className="h-8 w-8 text-blue-600" />,
-    title: "Multi-Account Support",
-    description: "Manage multiple accounts and credit cards in one place",
+    icon: <CreditCard className="h-8 w-8 text-green-600" />,
+    title: "Unified Account View",
+    description: "Link your bank accounts, wallets, and credit cards seamlessly.",
   },
   {
-    icon: <Globe className="h-8 w-8 text-blue-600" />,
-    title: "Multi-Currency",
-    description: "Support for multiple currencies with real-time conversion",
+    icon: <Globe className="h-8 w-8 text-green-600" />,
+    title: "Global Ready",
+    description:
+      "Plan and track spending in over 50 currencies with real-time FX rates.",
   },
   {
-    icon: <Zap className="h-8 w-8 text-blue-600" />,
-    title: "Automated Insights",
-    description: "Get automated financial insights and recommendations",
+    icon: <Zap className="h-8 w-8 text-green-600" />,
+    title: "Predictive Insights",
+    description:
+      "AI forecasts your spending trends to help you stay ahead financially.",
   },
 ];
 
-// How It Works Data
+// ⚙️ How It Works Data (new)
 export const howItWorksData = [
   {
-    icon: <CreditCard className="h-8 w-8 text-blue-600" />,
-    title: "1. Create Your Account",
+    icon: <CreditCard className="h-8 w-8 text-green-600" />,
+    title: "1. Sign Up Instantly",
     description:
-      "Get started in minutes with our simple and secure sign-up process",
+      "Join with just your email or social login and start in under a minute.",
   },
   {
-    icon: <BarChart3 className="h-8 w-8 text-blue-600" />,
-    title: "2. Track Your Spending",
+    icon: <BarChart3 className="h-8 w-8 text-green-600" />,
+    title: "2. Connect Your Finances",
     description:
-      "Automatically categorize and track your transactions in real-time",
+      "Securely link accounts or add transactions manually — it’s your choice.",
   },
   {
-    icon: <PieChart className="h-8 w-8 text-blue-600" />,
-    title: "3. Get Insights",
+    icon: <PieChart className="h-8 w-8 text-green-600" />,
+    title: "3. Gain Clarity",
     description:
-      "Receive AI-powered insights and recommendations to optimize your finances",
+      "View simple, clear insights that help you understand and optimize spending.",
   },
 ];
 
-// Testimonials Data
+// 💬 Testimonials Data (new)
 export const testimonialsData = [
   {
-    name: "Sarah Johnson",
-    role: "Small Business Owner",
-    image: "https://randomuser.me/api/portraits/women/75.jpg",
+    name: "Ananya Patel",
+    role: "Startup Founder",
+    image: "https://randomuser.me/api/portraits/women/65.jpg",
     quote:
-      "Welth has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
+      "This platform gave me financial clarity during my startup journey. The AI projections kept my business cash flow healthy.",
   },
   {
-    name: "Michael Chen",
-    role: "Freelancer",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    name: "David Williams",
+    role: "Remote Worker",
+    image: "https://randomuser.me/api/portraits/men/45.jpg",
     quote:
-      "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
+      "Managing multiple currencies was always a headache. Now I see all my accounts in one place, converted instantly. Game-changer!",
   },
   {
-    name: "Emily Rodriguez",
-    role: "Financial Advisor",
-    image: "https://randomuser.me/api/portraits/women/74.jpg",
+    name: "Sophia Kim",
+    role: "Graduate Student",
+    image: "https://randomuser.me/api/portraits/women/47.jpg",
     quote:
-      "I recommend Welth to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
+      "As a student, budgeting was tough. The automatic alerts kept me from overspending on non-essentials every month.",
   },
 ];

@@ -30,11 +30,10 @@ const HeroSection = () => {
     <section className="pt-40 pb-20 px-4">
       <div className="container mx-auto text-center">
         <h1 className="text-5xl md:text-8xl lg:text-[105px] pb-6 gradient-title">
-          Manage Your Finances <br /> with Intelligence
+         Control Your Money  <br /> through Smart Choices
         </h1>
-        <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          An AI-powered financial management platform that helps you track,
-          analyze, and optimize your spending with real-time insights.
+        <p className="text-xl text-gray-600 mb-8 max-w-2xl mt-4 mx-auto">
+          An AI-based financial management system designed to help you monitor, analyze, and refine your spending with live insights
         </p>
         <div className="flex justify-center space-x-4">
           <Link href="/dashboard">
@@ -42,11 +41,11 @@ const HeroSection = () => {
               Get Started
             </Button>
           </Link>
-          <Link href="">
+          {/* <Link href="">
             <Button size="lg" variant="outline" className="px-8">
               Watch Demo
             </Button>
-          </Link>
+          </Link> */}
         </div>
         <div className="hero-image-wrapper mt-5 md:mt-0">
           <div ref={imageRef} className="hero-image">
